@@ -40,5 +40,7 @@ public class ImmutableListTest {
         //copy数组list6的一个副本
         List<String> list7 = ImmutableList.<String>copyOf(list6);
         System.out.println(list7);
+
+        //add merge
     }
 }
